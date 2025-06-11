@@ -1,0 +1,77 @@
+_index,_id,_version,_score,_source.agent.ip,_source.agent.name,_source.agent.id,_source.manager.name,_source.data.win.eventdata.subjectLogonId,_source.data.win.eventdata.scriptPath,_source.data.win.eventdata.passwordLastSet,_source.data.win.eventdata.homeDirectory,_source.data.win.eventdata.userParameters,_source.data.win.eventdata.subjectDomainName,_source.data.win.eventdata.displayName,_source.data.win.eventdata.accountExpires,_source.data.win.eventdata.homePath,_source.data.win.eventdata.samAccountName,_source.data.win.eventdata.targetUserName,_source.data.win.eventdata.subjectUserSid,_source.data.win.eventdata.primaryGroupId,_source.data.win.eventdata.logonHours,_source.data.win.eventdata.targetDomainName,_source.data.win.eventdata.profilePath,_source.data.win.eventdata.userWorkstations,_source.data.win.eventdata.oldUacValue,_source.data.win.eventdata.newUacValue,_source.data.win.eventdata.targetSid,_source.data.win.eventdata.userAccountControl,_source.data.win.eventdata.subjectUserName,_source.data.win.system.eventID,_source.data.win.system.keywords,_source.data.win.system.providerGuid,_source.data.win.system.level,_source.data.win.system.channel,_source.data.win.system.opcode,_source.data.win.system.message,_source.data.win.system.version,_source.data.win.system.systemTime,_source.data.win.system.eventRecordID,_source.data.win.system.threadID,_source.data.win.system.computer,_source.data.win.system.task,_source.data.win.system.processID,_source.data.win.system.severityValue,_source.data.win.system.providerName,_source.rule.mail,_source.rule.level,_source.rule.pci_dss,_source.rule.hipaa,_source.rule.tsc,_source.rule.description,_source.rule.groups,_source.rule.nist_800_53,_source.rule.gdpr,_source.rule.firedtimes,_source.rule.mitre.technique,_source.rule.mitre.id,_source.rule.mitre.tactic,_source.rule.id,_source.rule.gpg13,_source.decoder.name,_source.input.type,_source.@timestamp,_source.location,_source.id,_source.timestamp
+wazuh-alerts-4.x-2025.05.28,hNzvFZcBMA-40w_avG79,1,1,192.168.254.133,DESKTOP-O7P9I53,001,hat-VMware-Virtual-Platform,0x129837,%%1793,%%1794,%%1793,%%1793,DESKTOP-O7P9I53,%%1793,%%1794,%%1793,backdoor,backdoor,S-1-5-21-442569660-4060779802-1076883227-1001,513,%%1797,DESKTOP-O7P9I53,%%1793,%%1793,0x0,0x15,S-1-5-21-442569660-4060779802-1076883227-1004,    %%2080    %%2082    %%2084,admin,4720,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-442569660-4060779802-1076883227-1001
+	Account Name:		admin
+	Account Domain:		DESKTOP-O7P9I53
+	Logon ID:		0x129837
+
+New Account:
+	Security ID:		S-1-5-21-442569660-4060779802-1076883227-1004
+	Account Name:		backdoor
+	Account Domain:		DESKTOP-O7P9I53
+
+Attributes:
+	SAM Account Name:	backdoor
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-""",0,2025-05-28T08:08:40.3538255Z,41817,9760,DESKTOP-O7P9I53,13824,672,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,false,8,"[""8.1.2"",""10.2.5""]","[""164.312.a.2.I"",""164.312.a.2.II"",""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]",User account enabled or created,"[""windows"",""windows_security"",""adduser"",""account_changed""]","[""AC.2"",""IA.4"",""AU.14"",""AC.7""]","[""IV_35.7.d"",""IV_32.2""]",1,"[""Account Manipulation""]","[""T1098""]","[""Persistence""]",60109,"[""7.10""]",windows_eventchannel,log,"May 28, 2025 @ 13:38:41.282",EventChannel,1748419721.3254029,"May 28, 2025 @ 13:38:41.282"
+wazuh-alerts-4.x-2025.05.28,AdwaFpcBMA-40w_a13DH,1,1,192.168.254.133,DESKTOP-O7P9I53,001,hat-VMware-Virtual-Platform,0x129837,%%1793,%%1794,%%1793,%%1793,DESKTOP-O7P9I53,%%1793,%%1794,%%1793,backdoor,backdoor,S-1-5-21-442569660-4060779802-1076883227-1001,513,%%1797,DESKTOP-O7P9I53,%%1793,%%1793,0x0,0x15,S-1-5-21-442569660-4060779802-1076883227-1005,    %%2080    %%2082    %%2084,admin,4720,0x8020000000000000,{54849625-5478-4994-a5ba-3e3b0328c30d},0,Security,0,"""A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-442569660-4060779802-1076883227-1001
+	Account Name:		admin
+	Account Domain:		DESKTOP-O7P9I53
+	Logon ID:		0x129837
+
+New Account:
+	Security ID:		S-1-5-21-442569660-4060779802-1076883227-1005
+	Account Name:		backdoor
+	Account Domain:		DESKTOP-O7P9I53
+
+Attributes:
+	SAM Account Name:	backdoor
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-""",0,2025-05-28T08:55:43.8298265Z,44208,5400,DESKTOP-O7P9I53,13824,672,AUDIT_SUCCESS,Microsoft-Windows-Security-Auditing,false,8,"[""8.1.2"",""10.2.5""]","[""164.312.a.2.I"",""164.312.a.2.II"",""164.312.b""]","[""CC6.8"",""CC7.2"",""CC7.3""]",User account enabled or created,"[""windows"",""windows_security"",""adduser"",""account_changed""]","[""AC.2"",""IA.4"",""AU.14"",""AC.7""]","[""IV_35.7.d"",""IV_32.2""]",1,"[""Account Manipulation""]","[""T1098""]","[""Persistence""]",60109,"[""7.10""]",windows_eventchannel,log,"May 28, 2025 @ 14:25:44.870",EventChannel,1748422544.5012768,"May 28, 2025 @ 14:25:44.870"
